@@ -21,6 +21,7 @@ It integrates several components: speech recognition, text-to-speech, and intera
   - `SpeechRecognition`
 
 **Code Overview**
+
 chat_gpt(prompt): Sends a prompt to the OpenAI API and returns the response.
 speak(text): Converts text to speech and plays it back to the user.
 capture_voice_input(): Captures voice input from the user using the microphone.
