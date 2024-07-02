@@ -67,14 +67,8 @@ while(1):
 
 
 
-    if "call" in inp:
-        x=f"what is the name of the person to call in the line '{inp}' ans in one word"
-        out = chat_gpt(x)
-        print(out)
-        try:
-            call(out)
-        except:
-            print("Try again")
+    if "bye" in inp:
+        break
 
     elif inp=="":
         continue
@@ -84,6 +78,5 @@ while(1):
         print("Assi : ",f'{out}')
         speak(f'{out}')
 
-    if "bye" in inp:
-        break
+   
 
